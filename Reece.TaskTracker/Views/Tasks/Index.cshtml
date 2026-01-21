@@ -1,0 +1,23 @@
+@model List<Reece.TaskTracker.Models.TaskItem>
+
+<h1>Tasks</h1>
+
+<a href="/Tasks/Create">Create Task</a>
+
+<table border="1">
+<tr>
+  <th>Description</th>
+  <th>Due Date</th>
+  <th>Status</th>
+</tr>
+
+@foreach (var task in Model)
+{
+<tr>
+  <td>@task.Description</td>
+  <td>@task.DueDate.ToShortDateString()</td>
+  <td>@task.Status</td>
+</tr>
+}
+</table>
+

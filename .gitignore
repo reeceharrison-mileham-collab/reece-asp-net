@@ -1,0 +1,32 @@
+## Build results
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+
+## VS Code
+.vscode/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## Packages
+packages/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Dotnet tools
+.dotnet/
